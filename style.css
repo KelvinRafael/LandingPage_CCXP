@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontCCXP);
+}
+
+:root{
+    --amareloCCXP: #FFD900;
+    --fontCCXP: verdana;
+}
+
+body button{
+    background-color: #514988;
+    color: white;
+    border: none;
+    padding: 0.5vw;
+    border-radius: 5px;
+    margin: 1vw;
+    font-weight: bolder;
+
+}
+
+body button:hover{
+    transform: translateX(5px);
+    color: #F3C61F;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: red;
+    padding: 1%;
+}
+
+header img{
+    width: 10%;
+    padding-left: 2%;
+}
+
+#cards{
+    display: flex;
+    width: 100%;
+}
+
+
+
+/* = = = = =Card Informativo= = = = = */
+
+#cardInformativo{
+    width: 60%;
+    padding: 2%;
+    background-color: #514988;
+    text-align: center;
+}
+
+#cardInformativo h1{
+    font-size: 3.1vw;
+    color: #F3C61F;
+}
+
+#cardInformativo h3{
+    padding-top: 2%;
+    font-weight: 600;
+    color: white;
+}
+
+#cardInformativo p{
+    padding: 6% 8% 8% 2%; 
+    color: white;
+    font-size: 1.3vw;
+
+}
+
+
+/* = = = = =Card Anuncio= = = = = */
+
+#cardAnuncio{
+    padding-left: 0%;
+    width: 70%;
+    text-align: center;
+
+}
+
+#cardAnuncio video{
+    width: 95%;
+    padding-right: 2%;
+}
+
+#countdown{
+    display: flex;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #514988;
+    justify-content: center;
+
+}
+
+#cardAnuncio li{
+    list-style: none;
+    padding-left: 0.8vw;
+}
+
+#cardAnuncio h3{
+    color: #E33881;
+}
+
+/* = = = = =Footer= = = = = */
+
+footer{
+    
+    display: flex;
+    width: 100%;
+}
+
+#aviso p{
+    padding: 1% 0% 1% 6%;
+    color: #FFD900;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+#cardDias{
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 5vh;
+    box-shadow: 0px 1px 0px 0px rgba(148, 148, 151, 0.2);
+}
+
+#cardDias img{
+    width: 15%;
+}
+
+#cardDias img:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 15px 20px hsl(0, 0%, 89%);
+}
+
+#divButon{
+    padding-top: 1.5vw;
+}
+
+footer button{
+
+    width: 25vw;
+    height: 13vh;
+    background-color: #514988;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+footer button:hover{
+    color: var(--amareloCCXP);
+}
+
+/* = = = = =Formulario= = = = = */
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border: 2px solid gray;
+    border-radius: 1vw;
+    margin-top: 4vw;
+}
+
+form img{
+    border-radius: 360px;
+    height: 30vh;
+    width: 15vw;
+}
+
+form button{
+    background-color: rgb(107, 194, 252);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vw;
+    margin-top: 0.8vw;
+}
+
+form button:hover{
+    color: #ffff;
+    transform: translateY(5px);
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+nav img{
+    width: 7%;
+    height: 90px;
+}
+
+.inputForm{
+    padding-top: 1vw;
+}
+
+.inputForm input{
+    width: 50%;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 1px 0px 0px rgb(176, 176, 180, 0.4);
+
+}
